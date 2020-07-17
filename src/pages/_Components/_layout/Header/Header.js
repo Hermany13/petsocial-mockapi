@@ -10,8 +10,8 @@ export default function Header() {
     return (
         <Container>
             <TitleContainer onClick={() => navigateTo('/home')}>
-                <img alt="PetSocial" width="82" height="92" src="https://lh3.googleusercontent.com/-IDm1cYQ8nPg/Xw_CJ6kb3eI/AAAAAAAAAVg/qGpZWjD7cDEOT-_jPryCYSKXjTQLRMZpwCK8BGAsYHg/s92/2020-07-15.png" />
-                <Title>Petshop</Title>
+                <img alt="SocialPet" width="82" height="92" src="https://lh3.googleusercontent.com/-IDm1cYQ8nPg/Xw_CJ6kb3eI/AAAAAAAAAVg/qGpZWjD7cDEOT-_jPryCYSKXjTQLRMZpwCK8BGAsYHg/s92/2020-07-15.png" />
+                <Title>SocialPet</Title>
             </TitleContainer>
             <LinkContainer>
                 <Link>Quem Somos</Link>

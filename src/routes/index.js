@@ -10,6 +10,7 @@ import history from '../utils/services/history';
 import Home from '../pages/Home/Home';
 import CadastroPet from '../pages/CadastroPet/CadastroPet';
 import Menu from '../pages/Menu/Menu';
+import AgendarVisita from '../pages/AgendarVisita/AgendarVisita';
 
 export default function Routes() {
     return (
@@ -19,6 +20,7 @@ export default function Routes() {
                 <Route path="/" exact component={Home} />
                 <Route path="/cadastro-pet" exact component={CadastroPet} />
                 <Route path="/home" exact component={Menu} />
+                <Route path="/agendar" exact component={AgendarVisita} />
             </Switch>
         </Router>
     );

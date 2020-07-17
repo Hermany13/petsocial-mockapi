@@ -8,7 +8,7 @@ export const SpanStyled = styled.span`
 export const TextArea = styled.textarea`
     width: 79%;
     background-color: transparent;
-    border: 2px solid #965af0;
+    border: 1px solid #965af0;
     height: 142px;
     border-radius: 30px;
     color: #965af0;
@@ -20,14 +20,9 @@ export const TextArea = styled.textarea`
 
     ::placeholder {
         color:  #965af0;
-        font-weight: bold;
-    }
-
-    &:focus {
-        outline: none;
     }
 
     @media (max-width: 767px) {
-        border: 3px solid  #965af0;
+        border: 2px solid  #965af0;
     }
 `;

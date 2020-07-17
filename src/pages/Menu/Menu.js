@@ -22,8 +22,13 @@ export default function Menu() {
                         </Item>
                     </ItemContainer>
                     <ItemContainer>
-                        <Item>
+                        <Item onClick={() => handleClick('/agendar')}>
                             Agendar Visita
+                        </Item>
+                    </ItemContainer>
+                    <ItemContainer>
+                        <Item onClick={() => handleClick('/lista')}>
+                            Lista de adoção
                         </Item>
                     </ItemContainer>
                 </ItensContainer>

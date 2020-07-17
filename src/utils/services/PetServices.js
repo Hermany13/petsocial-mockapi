@@ -17,3 +17,18 @@ export const cadastrarPet = async (data) => {
         return [false, error];
     }
 };
+
+export const getPets = async () => {
+    try {
+        const rota = {
+            host: 'https://5f0f5e2100d4ab0016133d52.mockapi.io/pet-social/',
+            routes: 'pet',
+        };
+
+        const { data: dataRet } = await axios.get(`${rota.host}${rota.routes}`);
+
+        return [dataRet, false];
+    } catch (error) {
+        return [false, error];
+    }
+};
